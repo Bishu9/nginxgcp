@@ -5,4 +5,4 @@ FROM nginx:latest
 COPY default.conf /etc/nginx/conf.d/default.conf
 
 # Expose port 80
-EXPOSE 8080
+EXPOSE 80
